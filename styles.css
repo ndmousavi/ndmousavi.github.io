@@ -20,10 +20,11 @@ body {
 }
 
 .sidebar h2 {
-  font-size: 18px;
+  font-size: 20px;   /* increase from 18px */
   margin: 0 0 22px 0;
   font-weight: 600;
 }
+
 
 /* Navigation */
 .nav a {
