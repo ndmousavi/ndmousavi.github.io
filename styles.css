@@ -77,3 +77,12 @@ h1 {
   font-size: 17px;
   text-align: justify;
 }
+
+
+.email-link {
+  font-size: 13px;
+  opacity: 0.9;
+  margin-top: 6px;
+  display: block;
+}
+
