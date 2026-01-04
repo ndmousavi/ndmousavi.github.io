@@ -4,11 +4,13 @@ body {
   color: #111;
 }
 
+/* Layout */
 .container {
   display: flex;
   min-height: 100vh;
 }
 
+/* Sidebar */
 .sidebar {
   width: 240px;
   background: #4a136f;
@@ -19,10 +21,11 @@ body {
 
 .sidebar h2 {
   font-size: 18px;
-  margin: 0 0 18px 0;
+  margin: 0 0 22px 0;
   font-weight: 600;
 }
 
+/* Navigation */
 .nav a {
   display: block;
   color: white;
@@ -30,12 +33,14 @@ body {
   padding: 10px 8px;
   border-radius: 8px;
   margin-bottom: 6px;
+  font-size: 15px;
 }
 
 .nav a:hover {
-  background: rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.14);
 }
 
+/* Main content */
 .main {
   flex: 1;
   padding: 48px;
@@ -46,10 +51,29 @@ body {
 h1 {
   margin-top: 0;
   font-size: 42px;
+  line-height: 1.2;
 }
 
+/* Header row (text + photo) */
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+/* Profile photo */
+.profile-photo {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+/* Text sections */
 .section {
   margin-top: 22px;
-  line-height: 1.6;
+  line-height: 1.65;
   font-size: 17px;
+  text-align: justify;
 }
