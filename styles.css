@@ -68,7 +68,9 @@ h1 {
   height: auto;
   border-radius: 8px;
   flex-shrink: 0;
+  margin-top: 12px;
 }
+
 
 /* Text sections */
 .section {
