@@ -54,22 +54,20 @@ h1 {
   line-height: 1.2;
 }
 
-/* Header row (text + photo) */
-.header {
+/* Top area for photo (separate from text flow) */
+.top-bar {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 32px;
+  justify-content: flex-end;  /* pushes photo to the right */
+  margin-top: 10px;
+  margin-bottom: 18px;
 }
 
 /* Profile photo */
 .profile-photo {
-  width: 220px;
+  width: 230px;      /* adjust bigger/smaller */
   height: auto;
-  border-radius: 8px;
-  flex-shrink: 0;
+  border-radius: 10px;
 }
-
 
 /* Text sections */
 .section {
