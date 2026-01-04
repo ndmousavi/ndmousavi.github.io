@@ -20,7 +20,7 @@ body {
 }
 
 .sidebar h2 {
-  font-size: 20px;   /* increase from 18px */
+  font-size: 24px;   /* increase from 18px */
   margin: 0 0 22px 0;
   font-weight: 600;
 }
@@ -80,7 +80,7 @@ h1 {
 
 
 .email-link {
-  font-size: 13px;
+  font-size: 10px;
   opacity: 0.9;
   margin-top: 6px;
   display: block;
