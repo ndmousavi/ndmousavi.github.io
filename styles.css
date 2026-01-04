@@ -64,7 +64,7 @@ h1 {
 
 /* Profile photo */
 .profile-photo {
-  width: 190px;
+  width: 200px;
   height: auto;
   border-radius: 8px;
   flex-shrink: 0;
